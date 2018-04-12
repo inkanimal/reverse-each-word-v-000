@@ -1,5 +1,5 @@
 def reverse_each_word(string)
-   string.map do |word|
+   string.each do |word|
      puts word
    end
 end
